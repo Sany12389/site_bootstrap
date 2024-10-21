@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sr. Máximo Hamburgueria</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff;
+            color: #333;
+        }
+        .navbar {
+            background-color: #73e699;
+        }
+        .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+        }
+        .navbar-brand:hover {
+            color: #dd0012;
+        }
+        .btn-pink {
+            background-color: #ee3000;
+            color: #fff;
+        }
+        .btn-pink:hover {
+            background-color: #41e44f;
+        }
+        .btn-yellow {
+            background-color: #1234f7;
+            color: #fff;
+        }
+        .btn-yellow:hover {
+            background-color: #41e649;
+        }
+        .footer {
+            background-color: #1404e9;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sr. Máximo Hamburgueria</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promocoes">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Quem Somos -->
+    <section id="quem-somos" class="container my-5 text-center">
+        <h2 class="mb-4">Quem Somos</h2>
+        <p>
+            O hambúrguer é a prova de que a felicidade pode vir em forma de carne, queijo e pão.<br><br>
+            Por aqui o hambúrguer é tão delicioso que até o pão fica feliz.
+        </p>
+    </section>
+
+    <!-- Carrossel -->
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="imagens/img8.jpg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="imagens/img7.jfif" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/img9.png" class="d-block w-100" alt="Imagem 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <!-- Produtos -->
+    <section id="produtos" class="container my-5">
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="imagens/img2.jpg" class="card-img-top" alt="Hambúrguer Clássico">
+                    <div class="card-body">
+                        <h5 class="card-title">Hambúrguer de Bacon</h5>
+                        <p class="card-text">Delicioso hambúrguer com Bacon, Bife, alface, tomate, queijo e molho especial.</p>
+                        <a href="#" class="btn btn-pink">Comprar</a>
+                        <a href="#" class="btn btn-yellow">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/img3.jpg" class="card-img-top" alt="Hambúrguer de Frango">
+                    <div class="card-body">
+                        <h5 class="card-title">Hambúrguer com pão integral</h5>
+                        <p class="card-text">Frango grelhado com queijo cheddar, molho barbecue, alface e tomate.</p>
+                        <a href="#" class="btn btn-pink">Comprar</a>
+                        <a href="#" class="btn btn-yellow">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imagens/img5.webp" class="card-img-top" alt="Hambúrguer Vegano">
+                    <div class="card-body">
+                        <h5 class="card-title">Hambúrguer com sticks de frango</h5>
+                        <p class="card-text">Tomate, alface, pepino e sticks de frango.</p>
+                        <a href="#" class="btn btn-pink">Comprar</a>
+                        <a href="#" class="btn btn-yellow">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promoções -->
+    <section id="promocoes" class="container my-5">
+        <h2 class="text-center mb-4">Promoções</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card bg-warning text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Promoção: 2 por 1!</h5>
+                        <p class="card-text">Aproveite nossa promoção especial: na compra de um Hambúrguer Clássico, leve o segundo de graça!</p>
+                        <a href="#" class="btn btn-light">Aproveitar Promoção</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <h5 class="card-title">Desconto de 20%</h5>
+                        <p class="card-text">Ganhe 20% de desconto em todos os pedidos feitos pelo nosso aplicativo.</p>
+                        <a href="#" class="btn btn-light">Peça Agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="container my-5 text-center">
+        <h2 class="mb-4">O que nossos clientes dizem</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"Melhor hambúrguer da cidade! Sempre frescos e deliciosos!"</p>
+                    <footer class="blockquote-footer">Carlos Silva</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"Atendimento rápido e hambúrgueres incríveis. Recomendo a todos."</p>
+                    <footer class="blockquote-footer">Ana Souza</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">
+                    <p>"AMEI as opçoes"</p>
+                    <footer class="blockquote-footer">Carol solza</footer>
+                </blockquote>
+            </div>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                    </body>
+</html>
